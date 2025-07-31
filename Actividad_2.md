@@ -21,6 +21,10 @@ Indica que el flujo continúa donde se ha colocado un símbolo identico (que con
     construye un algoritmo que, al recibir como datos el ID del empleado y los seis primeros digitos del sueldo del, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
 
 # solucion:
+
+# pseudocodigo:
+
+
 ```
      Inicio
      Leer ID, S1, S2, S3, S4, S6
@@ -29,3 +33,6 @@ Indica que el flujo continúa donde se ha colocado un símbolo identico (que con
      Escribir: ID, Total, Promedio
      Fin
 ```
+
+# imagenes: 
+    [Actividad_2](/imagenes/Diagrama-de-flujo.PNG)
