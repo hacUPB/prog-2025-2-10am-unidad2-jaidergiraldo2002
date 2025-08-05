@@ -36,3 +36,26 @@ Indica que el flujo continúa donde se ha colocado un símbolo identico (que con
 
 # imagenes: 
     [Actividad_2](/imagenes/Diagrama-de-flujo.PNG)
+# ejercicio 3:
+    Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
+        
+    |Variables| Tipo|
+    |---------|-----|
+    |Lapices |Entrada|
+    |Precio | Salida|
+    |85, 90 | Constantes|
+
+## pseudocodigo:
+
+```
+Inicio
+Leer Lapices
+Si Lapices >= 1000:
+    valor_unidad = 85
+Sino 
+    valor_unidad = 90
+Fin Si
+Precio = Lapices * valor_unidad
+Escribir "El valor total es:", Precio
+Fin
+```
