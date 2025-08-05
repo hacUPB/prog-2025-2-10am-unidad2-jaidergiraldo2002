@@ -60,6 +60,10 @@ Precio = Lapices * valor_unidad
 Escribir "El valor total es:", Precio
 Fin
 ```
+# Imagenes:
+
+[Actividad_2](/imagenes/Diagrama_ejercicio3.png)
+
 # ejercicio 4:
 
 Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
@@ -123,3 +127,52 @@ Escribir "El precio total de la renta seria: ", precio_total, " y el precio por 
 Fin  
 
 ```
+
+# Ejercicio 6:
+Realiza un programa que le pida al usuario el dia, mes y año de nacimiento y la fecha actual y le calcule su edad.
+
+# Analisis:
+| Variables | Tipo | Comentario |
+|-----------|------|------------|
+|dia_nacido| Entrada | Dia de nacimiento |
+|mes_nacido| Entrada | Mes de nacimiento |
+|ano_nacido| Entrada | Año de nacimiento |
+|dia_actual| Entrada | Dia de hoy |
+|mes_actual| Entrada | Mes en curso |
+|ano_actual| Entrada | Año en curso |
+|edad| Salida | Edad calculada |
+
+# Pseudocodigo:
+```
+Inicio
+Escribir "Ingrese el día de nacimiento:"
+Leer dia_nacido
+
+Escribir "Ingrese el mes de nacimiento:"
+Leer mes_nacido
+
+Escribir "Ingrese el año de nacimiento:"
+Leer ano_nacido
+
+Escribir "Ingrese el día actual:"
+Leer dia_actual
+
+Escribir "Ingrese el mes actual:"
+Leer mes_actual
+
+Escribir "Ingrese el año actual:"
+Leer ano_actual
+
+edad = ano_actual - ano_nacido
+
+Si (mes_actual < mes_nacido) o (mes_actual = mes_nacido y dia_actual < dia_nacido):
+    edad = edad - 1
+Fin Si
+
+Escribir "La edad es: ", edad
+
+Fin
+
+```
+# Imagenes: 
+[Actividad_2](/imagenes/diagrama_edad.png)
